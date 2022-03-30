@@ -1,0 +1,76 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("react-notifications-component/dist/theme.css");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fdcd3b;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  place-content: center;
+  border-radius: 20px;
+}
+.item {
+  height: 320px;
+  width: 280px;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.price {
+  padding: 5px 3px;
+  font-size: 18px;
+}
+.btn {
+  width: 100%;
+  font-size: 21px;
+  font-weight: 1000;
+  background-color: #dd413b;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #fdcd3b;
+  transition: background-color 1.5s;
+  color: crimson;
+}
+@media only screen and (max-width: 420px) {
+  .productContainer {
+    padding: 10px;
+  }
+  .item {
+    height: 200px;
+    width: 120px;
+    margin: 5px;
+    padding: 6px;
+  }
+  .price {
+    padding: 3px 1px;
+    font-size: 16px;
+  }
+  .btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3px;
+  }
+}

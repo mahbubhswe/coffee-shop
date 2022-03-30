@@ -1,0 +1,36 @@
+.inputContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 5px;
+}
+.labelTag {
+  width: 20%;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: grey;
+}
+.inputTag {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.btn {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #f7a52e;
+  border: 1px solid #f7a52e;
+  border-radius: 5px;
+  color: black;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #bb750d;
+}
